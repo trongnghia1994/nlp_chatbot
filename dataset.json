@@ -1,0 +1,22 @@
+﻿{
+  "intents": [
+    {
+      "tag": "greeting_morning",
+      "patterns": ["Chào buổi sáng", "Buổi sáng vui vẻ"],
+      "responses": ["Chào buổi sáng", "Ngày mới tốt lành"],
+      "context_set": ""
+    },
+    {
+      "tag": "greeting_common",
+      "patterns": ["Chào", "Khỏe không", "Có ai đó không", "Hi", "Hello", "Chào bạn"],
+      "responses": ["Chào", "Rất vui được gặp bạn", "Hello", "Hi", "Chào bạn"],
+      "context_set": ""
+    },
+    {
+      "tag": "bye",
+      "patterns": ["Tạm biệt", "Hẹn gặp lại", "Nói chuyện sau nhé"],
+      "responses": ["Tạm biệt", "Hẹn gặp lại", "Rất vui được nói chuyện với bạn", "Chào thân ái"],
+      "context_set": ""
+    }
+  ]
+}
